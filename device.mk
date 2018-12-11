@@ -318,6 +318,14 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Xiaomi Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
 # Power
 PRODUCT_PACKAGES += \
     power.qcom
