@@ -19,7 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay \
+                           $(LOCAL_PATH)/overlay-custom
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -145,7 +146,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8937 \
-    Snap
+    SnapdragonCamera2
 
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
