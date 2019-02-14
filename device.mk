@@ -169,7 +169,6 @@ include $(LOCAL_PATH)/rootdir/charger/charger.mk
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiShit \
     BaikalParts \
     BaikalDoze
 
@@ -317,10 +316,6 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
-
-# Xiaomi Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
 
 PRODUCT_BOOT_JARS += \
     QPerformance \
@@ -471,3 +466,7 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
+    
+# XiaomiShit
+PRODUCT_PACKAGES += \
+    XiaomiShit
