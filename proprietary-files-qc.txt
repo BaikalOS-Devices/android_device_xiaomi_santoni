@@ -169,6 +169,11 @@ vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|063298fa29ad1d8491853051
 # Charger - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
 vendor/bin/hvdcp_opti
 
+# Audio dirac - from xiaomi
+lib/soundfx/libdirac.so 
+lib/libDiracAPI_SHARED.so
+vendor/etc/diracmobile.config
+
 # DPM - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
 vendor/bin/dpmQmiMgr
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
